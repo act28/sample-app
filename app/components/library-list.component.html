@@ -1,0 +1,8 @@
+<h2>Viewing Libraries</h2>
+<ul class="libraries">
+  <li *ngFor="let library of libraries"
+      [class.selected]="library === selectedLibrary"
+      (click)="gotoDetail(library)">
+    <span class="badge">&middot;</span> <span class="text">{{library.name}}</span>
+  </li>
+</ul>

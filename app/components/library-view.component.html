@@ -1,0 +1,11 @@
+<h2>Library Opening/Closing Hours</h2>
+<div *ngIf="library">
+  <h3>{{library.name}}</h3>
+  <div><label>Opens At: </label>{{library.open}}</div>
+  <div><label>Closes At: </label>{{library.close}}</div>
+  <div><label>Homepage: </label><a href="{{library.url}}">{{library.url}}</a></div>
+  <div *ngIf="library.notes"><label>Notes: </label>{{library.notes}}</div>
+  <div class="action">
+    <button (click)="goBack()">Back</button>
+  </div>
+</div>
