@@ -8,7 +8,7 @@ import {HttpModule}    from '@angular/http';
 
 import {AppRoutingModule}  from './app-routing.module';
 
-import {InMemoryWebApiModule} from 'angular-in-memory-web-api/in-memory-web-api.module';
+import {InMemoryWebApiModule} from 'angular-in-memory-web-api';
 import {InMemoryDataService}  from './in-memory-data.service';
 
 import {AppComponent}  from './app.component';
