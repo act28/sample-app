@@ -1,0 +1,8 @@
+<div id="library-filter-component">
+  <h4>Find a Library <input #searchBox id="search-box" (keyup)="search(searchBox.value)"></h4>
+  <div>
+    <div *ngFor="let library of libraries | async" (click)="gotoDetail(library)" class="search-result">
+      {{library.name}}
+    </div>
+  </div>
+</div>
