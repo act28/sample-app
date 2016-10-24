@@ -1,0 +1,20 @@
+.search-result {
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-top: 1px solid gray;
+  width: 300px;
+  height: 18px;
+  padding: 5px;
+  margin-left: 110px;
+  top: -20px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 0.9em;
+  position: relative;
+}
+
+#search-box {
+  width: 200px;
+  height: 20px;
+}
